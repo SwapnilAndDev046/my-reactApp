@@ -1,11 +1,10 @@
 import { useState } from "react";
-import "../components/Test.css";
 function Test() {
-  let [counter, updateCounter] = useState(0);
-
+  let [name, updateName] = useState("swapnil");
   return (
     <div>
-      <h1>counter value is : {counter}</h1>
+      <h2>name of the student is: {name}</h2>
+      <button onClick={() => updateName("Swapnil devkate")}>Change</button>
     </div>
   );
 }
