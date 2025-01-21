@@ -1,8 +1,8 @@
-import Image from "./components/Image";
+import Test from "./components/Test";
 function App() {
   return (
     <div>
-      <Image />
+      <Test />
     </div>
   );
 }
